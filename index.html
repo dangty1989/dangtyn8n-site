@@ -102,7 +102,10 @@
         <h1>TikTok Auto Poster</h1>
         <p>Nền tảng tự động hóa đăng video TikTok chuyên nghiệp. Lên lịch, tạo caption AI, và đăng video 24/7 không cần thao tác thủ công.</p>
         
-        <a href="https://n8n.dangtyn8n.io.vn/webhook/tiktok-auth" class="btn">🚀 Kết nối tài khoản TikTok</a>
+        <!-- ✅ FIXED: Redirect tới TikTok OAuth -->
+        <a href="https://www.tiktok.com/v2/auth/authorize/?client_key=sbaweusmtcm0hn3cau&scope=user.info.basic,video.upload,video.publish&response_type=code&redirect_uri=https://n8n.dangtyn8n.io.vn/webhook-test/tiktok-callback&state=demo123" class="btn">
+            🚀 Kết nối tài khoản TikTok
+        </a>
         
         <div class="features">
             <h3>🔥 Tính năng nổi bật:</h3>
